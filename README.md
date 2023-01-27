@@ -1,5 +1,5 @@
 # GA-feature-selection
-An application of a genetic algorithm for the determination of the best features for data classification, using Python's scikit-learn API and Pandas. The dataset provided consists of 5-second audio frames of the steps of two people. The original dataset has elements with 34 features of audio belonging to two classes.
+An application of a genetic algorithm for the determination of the best features for data classification, using Python's scikit-learn API and Pandas. The dataset provided consists of 5-second audio frames of the steps of two people. The original dataset has elements with 34 features of audio belonging to two classes, but it can be used with any other dataset provided it's sorted like "dataset_steps.csv" (elements in the rows and features in the columns).
 
 The genetic algorithm for feature selection consists of:
 - Cromosome objects that contain the dataset with a unique number of the original features, which have:
